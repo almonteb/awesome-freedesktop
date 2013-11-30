@@ -12,8 +12,6 @@ local Gtk = lgi.require('Gtk')
 
 local module = {}
 
-terminal = 'xterm'
-
 module.icon_theme = nil
 local gtk_icon_theme = Gtk.IconTheme.get_default()
 
